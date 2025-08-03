@@ -34,12 +34,3 @@ pip install -r requirements.txt
 4. Run the App
 streamlit run app.py
 
-
-**File Structure**
-
-face-blur-privacy-tool/
-├── app.py                         # Main Streamlit app
-├── haarcascade_frontalface_default.xml  # Haar cascade for face detection
-├── requirements.txt               # Python dependencies
-└── README.md                      # Project documentation
-
