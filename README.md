@@ -21,6 +21,25 @@ Installation:
 
 1. Clone the Repository
 
-```bash
 git clone https://github.com/YOUR_USERNAME/face-blur-privacy-tool.git
-cd face-blur-privacy-tool
+cd face-blur-privacy-tool 
+
+2. Create virtual environment
+python -m venv venv
+source venv/bin/activate  # or venv\Scripts\activate on Windows
+
+3. Install Dependencies
+pip install -r requirements.txt
+
+4. Run the App
+streamlit run app.py
+
+
+**File Structure**
+
+face-blur-privacy-tool/
+├── app.py                         # Main Streamlit app
+├── haarcascade_frontalface_default.xml  # Haar cascade for face detection
+├── requirements.txt               # Python dependencies
+└── README.md                      # Project documentation
+
